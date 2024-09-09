@@ -3,12 +3,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 h1 {
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 form {
@@ -32,6 +33,46 @@ form {
 
     & button:hover {
         opacity: 0.8;
+        transition: .5s;
+    }
+
+    & input {
+        border: 1px solid #48456c;
+        border-radius: 30px;
+        height: 40px;
+        background-color: #363653;
+        color: #fff;
+        padding-left: 10px;
+        outline: none;
+    }
+}
+
+.card {
+    display: flex;
+    justify-content:space-between;
+    background-color: #2e2d4e;
+    margin: .5rem;
+    padding: .5rem;
+    width: 400px;
+    border-radius: 10px;
+
+    & p {
+        color: #fff;
+        font-weight: bold;
+    }
+
+    & span {
+        font-weight: normal;
+    }
+
+    & button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    & button:hover {
+        opacity: 0.7;
         transition: .5s;
     }
 }
