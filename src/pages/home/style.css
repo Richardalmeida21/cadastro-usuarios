@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #2E2D4E;
+    max-width: 50%;
+    width: 400px;
+    margin-bottom: 20px;
+
+    & button {
+        border-radius: 30px;
+        background-color: #8b8ae1;
+        height: 40px;
+        border: none;
+        font-weight: bold;
+    }
+
+    & button:hover {
+        opacity: 0.8;
+        transition: .5s;
+    }
+}
